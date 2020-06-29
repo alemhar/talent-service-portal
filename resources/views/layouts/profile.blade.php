@@ -152,7 +152,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <main class="py-4">
-            @yield('content')
+            
             <router-view></router-view>
     </main>
   </div>
