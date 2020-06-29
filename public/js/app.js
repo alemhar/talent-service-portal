@@ -37532,7 +37532,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "card-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-row" }, [
-                  _c("div", { staticClass: "form-group col-md-6" }, [
+                  _c("div", { staticClass: "form-group col-md-5" }, [
                     _c("label", { attrs: { for: "inputName" } }, [
                       _vm._v("Name")
                     ]),
@@ -37547,7 +37547,7 @@ var staticRenderFns = [
                     })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "form-group col-md-6" }, [
+                  _c("div", { staticClass: "form-group col-md-2" }, [
                     _c("label", { attrs: { for: "inputMI" } }, [_vm._v("MI")]),
                     _vm._v(" "),
                     _c("input", {
@@ -37556,7 +37556,7 @@ var staticRenderFns = [
                     })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "form-group col-md-6" }, [
+                  _c("div", { staticClass: "form-group col-md-5" }, [
                     _c("label", { attrs: { for: "inputSurname" } }, [
                       _vm._v("Surname")
                     ]),

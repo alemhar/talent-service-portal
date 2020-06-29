@@ -7,15 +7,15 @@
                     <div class="card-body">
                         <form>
                             <div class="form-row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-5">
                                     <label for="inputName">Name</label>
                                     <input type="text" class="form-control" id="inputName" placeholder="Name">
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-2">
                                     <label for="inputMI">MI</label>
                                     <input type="text" class="form-control" id="inputMI" placeholder="">
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-5">
                                     <label for="inputSurname">Surname</label>
                                     <input type="text" class="form-control" id="inputSurname" placeholder="Surname">
                                 </div>
