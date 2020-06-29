@@ -37551,16 +37551,14 @@ var staticRenderFns = [
             _c("div", { staticClass: "card-header" }, [
               _c("div", { staticClass: "row" }, [
                 _c("div", { staticClass: "col-6" }, [
-                  _vm._v(
-                    "\n                            Basic Info\n                        "
-                  )
+                  _c("h3", [_vm._v("Basic Info")])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-6" }, [
                   _c(
                     "button",
                     {
-                      staticClass: "btn btn-primary",
+                      staticClass: "btn btn-primary float-right",
                       attrs: { type: "submit" }
                     },
                     [_vm._v("Save")]

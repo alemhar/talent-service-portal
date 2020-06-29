@@ -6,10 +6,10 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-6">
-                                Basic Info
+                                <h3>Basic Info</h3> 
                             </div>
                             <div class="col-6">
-                                <button type="submit" class="btn btn-primary">Save</button>
+                                <button type="submit" class="btn btn-primary float-right">Save</button>
                             </div>
                         </div>
                         
