@@ -8,19 +8,19 @@
                         <div class="form-group row">
                             <label for="first-name" class="col-sm-2 col-form-label">First Name</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control-plaintext" id="first-name">
+                                <input type="text" class="form-control" id="first-name">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="middle-name" class="col-sm-2 col-form-label">Middle Name</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control-plaintext" id="middle-name">
+                                <input type="text" class="form-control" id="middle-name">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="last-name" class="col-sm-2 col-form-label">Last Name</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control-plaintext" id="last-name">
+                                <input type="text" class="form-control" id="last-name">
                             </div>
                         </div>
                         
