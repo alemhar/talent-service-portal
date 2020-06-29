@@ -53954,7 +53954,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!********************************!*\
   !*** ./resources/js/routes.js ***!
   \********************************/
-/*! exports provided: routes */
+/*! exports provided: routes, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53964,6 +53964,9 @@ var routes = [{
   path: '/basic-info',
   component: __webpack_require__(/*! ./components/BasicInfo.vue */ "./resources/js/components/BasicInfo.vue")["default"]
 }];
+/* harmony default export */ __webpack_exports__["default"] = (new VueRouter({
+  routes: routes
+}));
 
 /***/ }),
 

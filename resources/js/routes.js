@@ -4,3 +4,5 @@ export const routes = [
         component: require('./components/BasicInfo.vue').default 
     }
 ];
+
+export default new VueRouter({routes});
