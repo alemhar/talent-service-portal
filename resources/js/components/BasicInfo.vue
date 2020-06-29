@@ -3,8 +3,19 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">Basic Info</div>
-                    <button type="submit" class="btn btn-primary">Save</button>
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-6">
+                                Basic Info
+                            </div>
+                            <div class="col-6">
+                                <button type="submit" class="btn btn-primary">Save</button>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    
                     <div class="card-body">
                         <form>
                             
