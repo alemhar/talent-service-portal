@@ -6,6 +6,7 @@
                     <div class="card-header">Basic Info</div>
                     <div class="card-body">
                         <form>
+                            <button type="submit" class="btn btn-primary">Save</button>
                             <div class="form-row">
                                 <div class="form-group col-md-5">
                                     <label for="inputName">Name</label>
@@ -22,27 +23,35 @@
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress">Address</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Apartment, studio, or floor">
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress2">Address 2</label>
-                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="1234 Main St">
                             </div>
                             <div class="form-row">
+                                <div class="form-group col-md-6">
+                                <label for="inputBarangay">Barangay</label>
+                                <input type="text" class="form-control" id="inputBarangay">
+                                </div>
                                 <div class="form-group col-md-6">
                                 <label for="inputCity">City</label>
                                 <input type="text" class="form-control" id="inputCity">
                                 </div>
-                                <div class="form-group col-md-4">
-                                <label for="inputState">Barangay</label>
-                                <select id="inputState" class="form-control">
-                                    <option selected>Choose...</option>
-                                    <option>...</option>
-                                </select>
-                                </div>
-                                
                             </div>
-                            
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="inputMobile">Mobile #</label>
+                                    <input type="text" class="form-control" id="inputMobile" placeholder="09123456789">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputLandline">Landline #</label>
+                                    <input type="text" class="form-control" id="inputLandline" placeholder="123-4567">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="juan.delacruz@email.com">
+                                </div>
+                            </div>
                             <button type="submit" class="btn btn-primary">Save</button>
                             </form>
                         

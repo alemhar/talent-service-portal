@@ -1965,6 +1965,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37531,6 +37540,12 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _c("form", [
+                _c(
+                  "button",
+                  { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+                  [_vm._v("Save")]
+                ),
+                _vm._v(" "),
                 _c("div", { staticClass: "form-row" }, [
                   _c("div", { staticClass: "form-group col-md-5" }, [
                     _c("label", { attrs: { for: "inputName" } }, [
@@ -37582,27 +37597,34 @@ var staticRenderFns = [
                     attrs: {
                       type: "text",
                       id: "inputAddress",
-                      placeholder: "1234 Main St"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "inputAddress2" } }, [
-                    _vm._v("Address 2")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "inputAddress2",
                       placeholder: "Apartment, studio, or floor"
                     }
                   })
                 ]),
                 _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "inputAddress2",
+                      placeholder: "1234 Main St"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
                 _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-6" }, [
+                    _c("label", { attrs: { for: "inputBarangay" } }, [
+                      _vm._v("Barangay")
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", id: "inputBarangay" }
+                    })
+                  ]),
+                  _vm._v(" "),
                   _c("div", { staticClass: "form-group col-md-6" }, [
                     _c("label", { attrs: { for: "inputCity" } }, [
                       _vm._v("City")
@@ -37612,27 +37634,53 @@ var staticRenderFns = [
                       staticClass: "form-control",
                       attrs: { type: "text", id: "inputCity" }
                     })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "inputMobile" } }, [
+                      _vm._v("Mobile #")
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        id: "inputMobile",
+                        placeholder: "09123456789"
+                      }
+                    })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "form-group col-md-4" }, [
-                    _c("label", { attrs: { for: "inputState" } }, [
-                      _vm._v("Barangay")
+                    _c("label", { attrs: { for: "inputLandline" } }, [
+                      _vm._v("Landline #")
                     ]),
                     _vm._v(" "),
-                    _c(
-                      "select",
-                      {
-                        staticClass: "form-control",
-                        attrs: { id: "inputState" }
-                      },
-                      [
-                        _c("option", { attrs: { selected: "" } }, [
-                          _vm._v("Choose...")
-                        ]),
-                        _vm._v(" "),
-                        _c("option", [_vm._v("...")])
-                      ]
-                    )
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        id: "inputLandline",
+                        placeholder: "123-4567"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "inputEmail" } }, [
+                      _vm._v("Email")
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "email",
+                        id: "inputEmail",
+                        placeholder: "juan.delacruz@email.com"
+                      }
+                    })
                   ])
                 ]),
                 _vm._v(" "),
