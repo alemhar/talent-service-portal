@@ -53830,7 +53830,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_2__["default"]);
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
-  router: _routes__WEBPACK_IMPORTED_MODULE_3__["routes"],
+  routes: _routes__WEBPACK_IMPORTED_MODULE_3__["routes"],
   mode: 'history'
 }); // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
@@ -53843,7 +53843,8 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
  */
 
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
-  el: '#app'
+  el: '#app',
+  router: router
 });
 
 /***/ }),
@@ -53954,20 +53955,16 @@ __webpack_require__.r(__webpack_exports__);
 /*!********************************!*\
   !*** ./resources/js/routes.js ***!
   \********************************/
-/*! exports provided: default */
+/*! exports provided: routes */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
-
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "routes", function() { return routes; });
 var routes = [{
   path: '/basic-info',
   component: __webpack_require__(/*! ./components/BasicInfo.vue */ "./resources/js/components/BasicInfo.vue")["default"]
 }];
-/* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
-  routes: routes
-}));
 
 /***/ }),
 

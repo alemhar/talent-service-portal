@@ -9,7 +9,7 @@ Vue.use(VueRouter);
 Vue.use(Vuex);
 
 const router = new VueRouter({
-    router: routes,
+    routes,
     mode: 'history'
 })
 // const files = require.context('./', true, /\.vue$/i);
@@ -25,4 +25,5 @@ const router = new VueRouter({
 
 const app = new Vue({
     el: '#app',
+    router
 });
