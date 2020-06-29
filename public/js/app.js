@@ -1941,6 +1941,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37506,6 +37512,24 @@ var staticRenderFns = [
             _c("div", { staticClass: "card-header" }, [_vm._v("Basic Info")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
+              _c("div", { staticClass: "form-group row" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass: "col-sm-2 col-form-label",
+                    attrs: { for: "first-name" }
+                  },
+                  [_vm._v("First Name")]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-sm-10" }, [
+                  _c("input", {
+                    staticClass: "form-control-plaintext",
+                    attrs: { type: "text", readonly: "", id: "first-name" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
               _c("div", { staticClass: "input-group mb-3" }, [
                 _c("div", { staticClass: "input-group-prepend" }, [
                   _c(
