@@ -1943,10 +1943,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37525,75 +37521,45 @@ var staticRenderFns = [
                 _c("div", { staticClass: "col-sm-10" }, [
                   _c("input", {
                     staticClass: "form-control-plaintext",
-                    attrs: { type: "text", readonly: "", id: "first-name" }
+                    attrs: { type: "text", id: "first-name" }
                   })
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "input-group mb-3" }, [
-                _c("div", { staticClass: "input-group-prepend" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass: "input-group-text",
-                      attrs: { id: "inputGroup-sizing-default" }
-                    },
-                    [_vm._v("First Name")]
-                  )
-                ]),
+              _c("div", { staticClass: "form-group row" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass: "col-sm-2 col-form-label",
+                    attrs: { for: "middle-name" }
+                  },
+                  [_vm._v("Middle Name")]
+                ),
                 _vm._v(" "),
-                _c("input", {
-                  staticClass: "form-control",
-                  attrs: {
-                    type: "text",
-                    "aria-label": "First Name",
-                    "aria-describedby": "inputGroup-sizing-default"
-                  }
-                })
+                _c("div", { staticClass: "col-sm-10" }, [
+                  _c("input", {
+                    staticClass: "form-control-plaintext",
+                    attrs: { type: "text", id: "middle-name" }
+                  })
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "input-group mb-3" }, [
-                _c("div", { staticClass: "input-group-prepend" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass: "input-group-text",
-                      attrs: { id: "inputGroup-sizing-default" }
-                    },
-                    [_vm._v("Middle Name")]
-                  )
-                ]),
+              _c("div", { staticClass: "form-group row" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass: "col-sm-2 col-form-label",
+                    attrs: { for: "last-name" }
+                  },
+                  [_vm._v("Last Name")]
+                ),
                 _vm._v(" "),
-                _c("input", {
-                  staticClass: "form-control",
-                  attrs: {
-                    type: "text",
-                    "aria-label": "Middle Name",
-                    "aria-describedby": "inputGroup-sizing-default"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "input-group mb-3" }, [
-                _c("div", { staticClass: "input-group-prepend" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass: "input-group-text",
-                      attrs: { id: "inputGroup-sizing-default" }
-                    },
-                    [_vm._v("Last Name")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass: "form-control",
-                  attrs: {
-                    type: "text",
-                    "aria-label": "Last Name",
-                    "aria-describedby": "inputGroup-sizing-default"
-                  }
-                })
+                _c("div", { staticClass: "col-sm-10" }, [
+                  _c("input", {
+                    staticClass: "form-control-plaintext",
+                    attrs: { type: "text", id: "last-name" }
+                  })
+                ])
               ])
             ])
           ])

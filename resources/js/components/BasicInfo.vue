@@ -8,27 +8,23 @@
                         <div class="form-group row">
                             <label for="first-name" class="col-sm-2 col-form-label">First Name</label>
                             <div class="col-sm-10">
-                            <input type="text" readonly class="form-control-plaintext" id="first-name">
+                                <input type="text" class="form-control-plaintext" id="first-name">
                             </div>
                         </div>
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroup-sizing-default">First Name</span>
+                        <div class="form-group row">
+                            <label for="middle-name" class="col-sm-2 col-form-label">Middle Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control-plaintext" id="middle-name">
                             </div>
-                            <input type="text" class="form-control" aria-label="First Name" aria-describedby="inputGroup-sizing-default">
                         </div>
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroup-sizing-default">Middle Name</span>
+                        <div class="form-group row">
+                            <label for="last-name" class="col-sm-2 col-form-label">Last Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control-plaintext" id="last-name">
                             </div>
-                            <input type="text" class="form-control" aria-label="Middle Name" aria-describedby="inputGroup-sizing-default">
                         </div>
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroup-sizing-default">Last Name</span>
-                            </div>
-                            <input type="text" class="form-control" aria-label="Last Name" aria-describedby="inputGroup-sizing-default">
-                        </div>
+                        
+                        
 
                     </div>
                 </div>
