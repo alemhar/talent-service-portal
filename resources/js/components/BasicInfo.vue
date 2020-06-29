@@ -4,9 +4,10 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">Basic Info</div>
+                    <button type="submit" class="btn btn-primary">Save</button>
                     <div class="card-body">
                         <form>
-                            <button type="submit" class="btn btn-primary">Save</button>
+                            
                             <div class="form-row">
                                 <div class="form-group col-md-5">
                                     <label for="inputName">Name</label>
