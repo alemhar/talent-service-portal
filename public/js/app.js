@@ -53954,17 +53954,18 @@ __webpack_require__.r(__webpack_exports__);
 /*!********************************!*\
   !*** ./resources/js/routes.js ***!
   \********************************/
-/*! exports provided: routes, default */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "routes", function() { return routes; });
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
+
 var routes = [{
   path: '/basic-info',
   component: __webpack_require__(/*! ./components/BasicInfo.vue */ "./resources/js/components/BasicInfo.vue")["default"]
 }];
-/* harmony default export */ __webpack_exports__["default"] = (new VueRouter({
+/* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: routes
 }));
 
