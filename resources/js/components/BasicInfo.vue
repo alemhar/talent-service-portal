@@ -5,24 +5,46 @@
                 <div class="card">
                     <div class="card-header">Basic Info</div>
                     <div class="card-body">
-                        <div class="form-group row">
-                            <label for="first-name" class="col-sm-2 col-form-label">First Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="first-name">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputName">Name</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputMI">MI</label>
+                                    <input type="text" class="form-control" id="inputMI" placeholder="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputSurname">Surname</label>
+                                    <input type="text" class="form-control" id="inputSurname" placeholder="Surname">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="middle-name" class="col-sm-2 col-form-label">Middle Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="middle-name">
+                            <div class="form-group">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="last-name" class="col-sm-2 col-form-label">Last Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="last-name">
+                            <div class="form-group">
+                                <label for="inputAddress2">Address 2</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                             </div>
-                        </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="form-group col-md-4">
+                                <label for="inputState">Barangay</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                                </div>
+                                
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Save</button>
+                            </form>
                         
                         
 
