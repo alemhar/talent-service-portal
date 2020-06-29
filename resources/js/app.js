@@ -9,7 +9,7 @@ Vue.use(VueRouter);
 Vue.use(Vuex);
 
 const router = new VueRouter({
-    routes,
+    router: routes,
     mode: 'history'
 })
 // const files = require.context('./', true, /\.vue$/i);
