@@ -64,7 +64,10 @@
                                     <input type="email" class="form-control" id="inputEmail" placeholder="juan.delacruz@email.com">
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">Save</button>
+                            <div class="row">
+
+                                <button type="submit" class="btn btn-primary float-right">Save</button>
+                            </div>
                             </form>
                         
                         
