@@ -4,7 +4,6 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">Basic Info</div>
-
                     <div class="card-body">
                         BASIC INFO
                     </div>
